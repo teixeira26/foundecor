@@ -1,26 +1,34 @@
 "use client";
+import useObserver from "@/app/utils/observer";
 import Image from "next/image";
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 type Props = {};
 
 export default function Products({}: Props) {
   const [color, setColor] = useState("rojo.webp");
+
+  let colorMenu = useRef() as any;
+  const showClass = useObserver(colorMenu);
   return (
+    <>
     <section className="pt-16">
       <hr className="pt-8" />
       <h2 className="text-center font-Nunito font-bold text-[20px] pb-4 pt-8  opacityScrollAnimation">
-        Descubre Nuestros productos
+        Variedad de Colores y Texturas
       </h2>
-      <p className="font-hind text-[#00000090] text-center opacityScrollAnimation">Nuestra pasta americana.</p>
-      <p className="font-hind text-[#00000090] text-center opacityScrollAnimation"><span className="font-bold">Envases:</span> 200gr, 500gr, 1kg, 3,5kg
+      <p className="font-hind text-[#00000090] text-center opacityScrollAnimation">Desde tonos vibrantes hasta opciones versátiles, nuestra variedad te permite personalizar tus creaciones de repostería de manera única.</p>
+      <h2 className="text-center font-Nunito font-bold text-[20px] pb-4 pt-8  opacityScrollAnimation">
+        Pasta Americana
+      </h2>
+      <p className="font-hind text-[#00000090] text-center opacityScrollAnimation pt-4"><span className="font-bold">Envase:</span> 200gr, 500gr, 1kg o 3,5kg
 </p>
 
 
-      <div className="pt-4 flex justify-center opacityScrollAnimation">
+      <div className="pt-4 flex justify-center">
         <img className={`w-[250px] h-[250px] opacityAnimation ${color.split(' ')[1]? 'opacity-[30%]' : ''}`} src={`./${color.split(' ')[0]}`} alt="" />
       </div>
-      <aside className="flex space-x-4 flex-wrap justify-between my-4 opacityScrollAnimation">
+      <aside ref={colorMenu} className={`flex space-x-4 flex-wrap justify-between my-4 ${showClass ? 'animate-fade-right' : 'opacity-0'}`}>
         <div className="flex flex-col items-center">
         <button onClick={()=>{
           setColor('blanco.png 30')
@@ -67,10 +75,31 @@ export default function Products({}: Props) {
         <p title="Blanco" className="font-hind text-[#00000090] text-center max-w-[40px] overflow-hidden text-ellipsis">Blanco</p>
         </div>
         
-       
+     
         
        
       </aside>
     </section>
+    <section>
+         <h2 className="text-center font-Nunito font-bold text-[20px] pb-4 pt-8  opacityScrollAnimation">
+       Pasta de goma
+      </h2>
+      <p className="font-hind text-[#00000090] text-center opacityScrollAnimation pt-4"><span className="font-bold">Envase:</span>  200gr, 500gr </p>
+      <p className="font-hind text-[#00000090] text-center opacityScrollAnimation pt-4"><span className="font-bold">Colores:</span> rojo, azul, verde</p>
+      <div className="pt-4 flex justify-center">
+        <img className={`w-[250px] h-[200px] opacityAnimation ${color.split(' ')[1]? 'opacity-[30%]' : ''}`} src={`./pastaGoma.png`} alt="" />
+      </div>
+    </section>
+    <section>
+         <h2 className="text-center font-Nunito font-bold text-[20px] pb-4 pt-8  opacityScrollAnimation">
+       Pasta de Flores
+      </h2>
+      <p className="font-hind text-[#00000090] text-center opacityScrollAnimation pt-4"><span className="font-bold">Envase:</span> 200gr</p>
+      <p className="font-hind text-[#00000090] text-center opacityScrollAnimation pt-4"><span className="font-bold">Colores:</span> rosa, azul, negro, blanco</p>
+      <div className="pt-4 flex justify-center">
+        <img className={`w-[250px] h-[200px] opacityAnimation ${color.split(' ')[1]? 'opacity-[30%]' : ''}`} src={`./pastaFlores.png`} alt="" />
+      </div>
+    </section>
+    </>
   );
 }

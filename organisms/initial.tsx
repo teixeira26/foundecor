@@ -4,13 +4,12 @@ type Props = {};
 
 export default function Initial({}: Props) {
   return (
-    <section className="z-10 relative text-white pt-6 flex flex-col gap-4 items-center text-center">
-      <h2 className="text-[32px] font-nunito font-bold">
-        <span className=" border-b-solid border-b-4 border-b-[#16a34a]">
-          Crea
+    <section className="z-10 relative text-white pt-6 flex flex-col gap-4 items-center text-center animate-fade">
+      <h1 className="text-[32px] font-nunito font-bold">
+        Conocé la <span className=" border-b-solid border-b-4 border-b-[#16a34a]">{" "}mejor
         </span>{" "}
-        y decora tus propias tortas con pasta americana
-      </h2>
+        pasta para cubrir tortas.
+      </h1>
       <aside className="flex gap-4">
         <div className="flex flex-col gap-2 justify-baseline font-fanwood ">
             <p className="text-[#16a34a] text-[32px] max-w-[140px] text-center">18+</p>
