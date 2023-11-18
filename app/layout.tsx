@@ -14,12 +14,12 @@ export const metadata: Metadata = {
     siteName: 'Foundecor',
     images: [
       {
-        url: './public/tortita.jpg',
+        url: './tortita.jpg',
         width: 800,
         height: 600,
       },
       {
-        url: './public/tortita.jpg',
+        url: './tortita.jpg',
         width: 1800,
         height: 1600,
         alt: 'Torta hermosa',
