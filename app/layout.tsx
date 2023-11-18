@@ -12,19 +12,6 @@ export const metadata: Metadata = {
     description: 'Explora y compra pasta americana decorativa de calidad premium en Foundecor. Variedad de colores, texturas y herramientas para repostería creativa. Personaliza pasteles y crea figuras con nuestro fondant exclusivo. Envío rápido y seguro. ¡Haz de cada creación una obra maestra con nuestra pasta americana para repostería!',
     url: 'https://foundecor.vercel.app',
     siteName: 'Foundecor',
-    images: [
-      {
-        url: 'https://instagram.fepa14-1.fna.fbcdn.net/v/t51.2885-15/318454138_484061150378429_478625131591675091_n.webp?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyIn0&_nc_ht=instagram.fepa14-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=uWJkbsYtH-sAX8Q7nml&edm=ABmJApABAAAA&ccb=7-5&ig_cache_key=Mjk4OTAyNTUwNjY4NzI2MjcwOA%3D%3D.2-ccb7-5&oh=00_AfAlKKx0xXbWf-Ix_6rYy5uzN2erj-2q_FwAtkqBSS_L0w&oe=655B79B0&_nc_sid=b41fef',
-        width: 800,
-        height: 600,
-      },
-      {
-        url: 'https://instagram.fepa14-1.fna.fbcdn.net/v/t51.2885-15/318454138_484061150378429_478625131591675091_n.webp?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyIn0&_nc_ht=instagram.fepa14-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=uWJkbsYtH-sAX8Q7nml&edm=ABmJApABAAAA&ccb=7-5&ig_cache_key=Mjk4OTAyNTUwNjY4NzI2MjcwOA%3D%3D.2-ccb7-5&oh=00_AfAlKKx0xXbWf-Ix_6rYy5uzN2erj-2q_FwAtkqBSS_L0w&oe=655B79B0&_nc_sid=b41fef',
-        width: 1800,
-        height: 1600,
-        alt: 'Torta hermosa',
-      },
-    ],
     type: 'website',
   },
   keywords:["Compra pasta americana decorativa online",
