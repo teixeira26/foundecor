@@ -7,6 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Foundecor',
   description: 'Explora y compra pasta americana decorativa de calidad premium en Foundecor. Variedad de colores, texturas y herramientas para repostería creativa. Personaliza pasteles y crea figuras con nuestro fondant exclusivo. Envío rápido y seguro. ¡Haz de cada creación una obra maestra con nuestra pasta americana para repostería!',
+  metadataBase: new URL("https://foundecor.vercel.app/"),
   openGraph: {
     title: 'Foundecor',
     description: 'Explora y compra pasta americana decorativa de calidad premium en Foundecor. Variedad de colores, texturas y herramientas para repostería creativa. Personaliza pasteles y crea figuras con nuestro fondant exclusivo. Envío rápido y seguro. ¡Haz de cada creación una obra maestra con nuestra pasta americana para repostería!',
