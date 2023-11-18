@@ -6,7 +6,27 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Foundecor',
-  description: 'Descubre la mejor selección de pasta americana de calidad, con diferentes colores, sabores y texturas. Descubre cómo convertir tus pasteles en verdaderas obras de arte que dejarán a todos con la boca abierta. ¡Te esperamos!',
+  description: 'Explora y compra pasta americana decorativa de calidad premium en Foundecor. Variedad de colores, texturas y herramientas para repostería creativa. Personaliza pasteles y crea figuras con nuestro fondant exclusivo. Envío rápido y seguro. ¡Haz de cada creación una obra maestra con nuestra pasta americana para repostería!',
+  openGraph: {
+    title: 'Foundecor',
+    description: 'Explora y compra pasta americana decorativa de calidad premium en Foundecor. Variedad de colores, texturas y herramientas para repostería creativa. Personaliza pasteles y crea figuras con nuestro fondant exclusivo. Envío rápido y seguro. ¡Haz de cada creación una obra maestra con nuestra pasta americana para repostería!',
+    url: 'https://foundecor.vercel.app',
+    siteName: 'Foundecor',
+    images: [
+      {
+        url: './public/tortita.jpg',
+        width: 800,
+        height: 600,
+      },
+      {
+        url: './public/tortita.jpg',
+        width: 1800,
+        height: 1600,
+        alt: 'Torta hermosa',
+      },
+    ],
+    type: 'website',
+  },
 }
 
 export default function RootLayout({
