@@ -11,9 +11,9 @@ export default function About({}: Props) {
     <h2 className="text-center font-Nunito font-bold text-[20px] pt-8 opacityScrollAnimation">Descubre Nuestra Selección Exclusiva</h2>
     <article className="text-center opacityScrollAnimation">
       <div className="flex justify-center py-4 items-center h-[190px]">
-      <div className="flex justify-center py-4 bg-[#f8202050] w-[120px] h-[120px] rounded-[5px] z-10 items-center absolute rotate-45"></div>
-        <div className="flex justify-center py-4 bg-[#f8202090] w-[112px] h-[112px] rounded-[5px] z-20 items-center absolute rotate-45"></div>
-        <div className="flex justify-center py-4 bg-[#f82020] w-[104px] h-[104px] rounded-[5px] z-30 items-center absolute rotate-45"></div>
+      <div className="flex justify-center py-4 bg-[#fa47b750] w-[120px] h-[120px] rounded-[5px] z-10 items-center absolute rotate-45"></div>
+        <div className="flex justify-center py-4 bg-[#fa47b790] w-[112px] h-[112px] rounded-[5px] z-20 items-center absolute rotate-45"></div>
+        <div className="flex justify-center py-4 bg-[#fa47b7] w-[104px] h-[104px] rounded-[5px] z-30 items-center absolute rotate-45"></div>
         <div className="z-40 invert">
         <Image width={64} height={64} src="/calidad.png" alt="ícono de una medalla" />
 
@@ -24,9 +24,9 @@ export default function About({}: Props) {
     </article>
     <article className="text-center pt-4">
       <div className="flex justify-center py-4 items-center h-[190px] opacityScrollAnimation">
-      <div className=" flex justify-center py-4 bg-[#f8202050] w-[120px] h-[120px] rounded-[5px] z-10 items-center absolute rotate-45"></div>
-        <div className="flex justify-center py-4 bg-[#f8202090] w-[112px] h-[112px] rounded-[5px] z-20 items-center absolute rotate-45"></div>
-        <div className="flex justify-center py-4 bg-[#f82020] w-[104px] h-[104px] rounded-[5px] z-30 items-center absolute rotate-45"></div>
+      <div className=" flex justify-center py-4 bg-[#fa47b750] w-[120px] h-[120px] rounded-[5px] z-10 items-center absolute rotate-45"></div>
+        <div className="flex justify-center py-4 bg-[#fa47b790] w-[112px] h-[112px] rounded-[5px] z-20 items-center absolute rotate-45"></div>
+        <div className="flex justify-center py-4 bg-[#fa47b7] w-[104px] h-[104px] rounded-[5px] z-30 items-center absolute rotate-45"></div>
         <div className="z-40 invert">
         <Image width={64} height={64} src="/escultura.png" alt="ícono de una escultura" />
 
@@ -37,9 +37,9 @@ export default function About({}: Props) {
     </article>
     <article className="text-center pt-4">
       <div className="flex justify-center py-4 items-center h-[190px] opacityScrollAnimation">
-      <div className="flex justify-center py-4 bg-[#f8202050] w-[120px] h-[120px] rounded-[5px] z-10 items-center absolute rotate-45"></div>
-        <div className="flex justify-center py-4 bg-[#f8202090] w-[112px] h-[112px] rounded-[5px] z-20 items-center absolute rotate-45"></div>
-        <div className="flex justify-center py-4 bg-[#f82020] w-[104px] h-[104px] rounded-[5px] z-30 items-center absolute rotate-45"></div>
+      <div className="flex justify-center py-4 bg-[#fa47b750] w-[120px] h-[120px] rounded-[5px] z-10 items-center absolute rotate-45"></div>
+        <div className="flex justify-center py-4 bg-[#fa47b790] w-[112px] h-[112px] rounded-[5px] z-20 items-center absolute rotate-45"></div>
+        <div className="flex justify-center py-4 bg-[#fa47b7] w-[104px] h-[104px] rounded-[5px] z-30 items-center absolute rotate-45"></div>
         <div className="z-40 invert">
         <Image width={64} height={64} src="/mariposas.png" alt="ícono de dos mariposas con brillos" />
 
