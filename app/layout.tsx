@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     type: 'website',
   },
   verification:{
-    google: '4o79rGt3k5im2kaRas8MNjT2w3v65mbNGC9fUhxTfys'
+    google: 'GFDtaOT135SmU8mWig9zmyPxqcdgW6wnqVOfccU_Lf8'
   },
   keywords:["Compra pasta americana decorativa online",
   "Ofertas de fondant para repostería",
